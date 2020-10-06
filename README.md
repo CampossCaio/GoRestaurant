@@ -26,12 +26,16 @@
 
 ## 💻 Sobre o projeto
 
-:spaghetti:  GoRestaurant - é uma aplicação que permite ao usuário adicionar, editar e remover diversos pratos de comida.
+:spaghetti:  GoRestaurant - é uma aplicação dividida em duas partes.
+
+**Web**: Uma dashboard onde o usuário pode adicionar, editar ou deletar seus pratos favoritos.
+
+**Mobile**: Um aplicativo onde o usuário pode selecionar seu prato preferido e realizar o pedido do mesmo.
 
 
 Projeto desenvolvido durante um desafio proposto na jornada GoStack 12, curso produzido pela [Rocketseat](https://blog.rocketseat.com.br).
 
-O intuito de seu desenvolvimento é praticar os conhecimentos sobre [React.JS](https://reactnative.dev/) entre outras tecnologias como o [Typescript](https://www.typescriptlang.org/) adiquiridos durante a jornada.  
+O intuito de seu desenvolvimento é praticar os conhecimentos sobre [React.JS](https://reactnative.dev/), [React Native](https://reactnative.dev/), entre outras tecnologias como o [Typescript](https://www.typescriptlang.org/),
 
 ---
 
@@ -41,6 +45,13 @@ O intuito de seu desenvolvimento é praticar os conhecimentos sobre [React.JS](h
 <a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
   <img alt="GoRestaurant" src="https://res.cloudinary.com/dgugs5dpz/image/upload/v1599792969/go_restaurante_wypdyu.gif">
 </a>
+
+<p align="center">
+ <a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
+  <img alt="GoRestaurant" src="https://res.cloudinary.com/dgugs5dpz/image/upload/v1601944210/Peek_2020-10-05_21-29_tzfg3g.gif">
+</a>
+</p>
+
 
 ## 🚀 Como executar o projeto
 
@@ -63,7 +74,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone https://github.com/CampossCaio/GoRestaurant.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd GoRestaurant
+$ cd web
 
 # Instale as dependências
 $ npm install
@@ -76,7 +87,27 @@ $ npm run start
 
 ```
 
----
+#### 🧭 Rodando a aplicação mobile (Frontend)
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/CampossCaio/GoRestaurant.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd GoRestaurant
+
+# Vá para a pasta da aplicação Front End
+$ cd mobile
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run android ou npm run ios
+
+
+```
 
 ## 🛠 Tecnologias
 
@@ -85,6 +116,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Json Server ](https://www.npmjs.com/package/json-server)**
+
+#### **Mobile**  ([React Native](https://reactnative.dev/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React Navigation](https://reactnavigation.org/)**
 -   **[React Icons](https://react-icons.github.io/react-icons/)**
 -   **[Axios](https://github.com/axios/axios)**
 -   **[Json Server ](https://www.npmjs.com/package/json-server)**
